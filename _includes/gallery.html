@@ -1,0 +1,92 @@
+
+<style>
+/* force scrollbar */
+html { overflow-y: scroll; }
+    
+/* To overwrite page's padding, to get bigger images */
+/* article {padding:2%;} */
+
+</style>
+<!--
+<div id='masonry' class="grid">
+<div class="grid-sizer"></div>
+<div class="gutter-sizer"></div>
+{% for image in site.static_files %}
+  {% if image.path contains include.gallery_path %}
+    {% unless image.path contains '.md' %}
+        <img src="{{ image.path | relative_url }}" alt="" class="grid-item" style="padding: 0;">
+    {% endunless %}  
+  {% endif %}
+{% endfor %}
+</div> 
+-->
+<script src="{{ "/assets/js/vendor/imagesloaded.min.js" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/assets/js/vendor/masonry.pkgd.min.js" | relative_url }}" type="text/javascript"></script>
+
+<br>
+<br>
+<div class="portfolio-grid">    
+  <div class="portfolio-cell">
+      <img alt="" class="" src="/assets/img/pexels/data-science-handbook.jpg">
+      <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1ALQVQdlf7EzY6gCj7P2YUGtYzsxzy89Y/view?usp=sharing">
+          <p style="text-align: center; font-weight: bold;">Data Science Handbook</p>
+      </a>       
+  </div>
+  <div class="portfolio-cell">
+      <img alt="" class="" src="/assets/img/pexels/sql-dummies.jpg">
+      <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1fa-gYas3B09EwxRAhPUbZOvExFAm8Sx2/view?usp=sharing">
+          <p style="text-align: center; font-weight: bold;">SQL for Dummies</p>
+      </a>       
+  </div>
+  <div class="portfolio-cell">
+      <img alt="" class="" src="/assets/img/pexels/r-data-science.jpg">
+      <a class="portfolio-link" data-keyboard="true" href="https://www.dropbox.com/s/p41dc3s515gcac0/R_for_Data_Science_Import%2C_Tidy%2C_Transform%2C_Visualize%2C_and_Model.pdf?dl=0">
+          <p style="text-align: center; font-weight: bold;">R for Data Science</p>
+      </a>       
+  </div>
+
+  <div class="portfolio-cell">
+    <img alt="" class="" src="/assets/img/pexels/statistical-learning.jpg">
+    <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1GhVHbEtFhkx8t__kSXa1Db923M9Jy47h/view?usp=sharing">
+        <p style="text-align: center; font-weight: bold;">An Introduction to Statistical Learning</p>
+    </a>       
+  </div>
+  <div class="portfolio-cell">
+      <img alt="" class="" src="/assets/img/pexels/python-data-analysis.jpg">
+      <a class="portfolio-link" data-keyboard="true" href="https://www.dropbox.com/s/qpunl4bk1qsfkzj/Python_for_Data_Analysis_Data_Wrangling_with_Pandas%2C_NumPy%2C_and.pdf?dl=0">
+          <p style="text-align: center; font-weight: bold;">Python for Data Analysis</p>
+      </a>       
+  </div>
+  <div class="portfolio-cell">
+      <img alt="" class="" src="/assets/img/pexels/art-data-science.jpg">
+      <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1O_qaro61H6_bd7KSwsccHR4gZg_JBKZT/view?usp=sharing">
+          <p style="text-align: center; font-weight: bold;">The Art of Data Science</p>
+      </a>       
+  </div>
+
+  <div class="portfolio-cell">
+    <img alt="" class="" src="/assets/img/pexels/machine-learning-cookbook.jpg">
+    <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1FkPRn1nKJyHF6j3ke8jz5pe7r-kyamG_/view?usp=sharing">
+        <p style="text-align: center; font-weight: bold;">Python Machine Learning Cookbook</p>
+    </a>       
+  </div>
+  <div class="portfolio-cell">
+    <img alt="" class="" src="/assets/img/pexels/deep-learning.jpg">
+    <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1GRfkaK3yinKoCgxAItY-2cr7S9FDVX56/view?usp=sharing">
+        <p style="text-align: center; font-weight: bold;">Deep Learning</p>
+    </a>       
+  </div>
+  <div class="portfolio-cell">
+    <img alt="" class="" src="/assets/img/pexels/grokking-deep-learning.jpg">
+    <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1AsJcngKbEKvqCIsBCbSOUtPz4FrjDEr4/view?usp=sharing">
+        <p style="text-align: center; font-weight: bold;">Grokking Deep Learning</p>
+    </a>       
+  </div>
+
+  <div class="portfolio-cell">
+    <img alt="" class="" src="/assets/img/pexels/spark.jpg">
+    <a class="portfolio-link" data-keyboard="true" href="https://drive.google.com/file/d/1QuFcqvxs6f3vDtgSLI9YG-5HpoDMjlQ8/view?usp=sharing">
+        <p style="text-align: center; font-weight: bold;">Spark The Definitive Guide</p>
+    </a>       
+  </div>
+</div>

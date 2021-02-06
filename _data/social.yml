@@ -1,0 +1,41 @@
+# Icons on the footer
+rss: true
+email_address:  "ferids55@yahoo.co.id"
+behance:
+bitbucket:
+dribbble:
+facebook:
+flickr:
+gitlab:
+github: "ferids55"
+instagram:
+keybase:
+linkedin: https://www.linkedin.com/in/ferids         # Full URL
+pinterest:
+reddit:
+soundcloud:
+stack_overflow:
+stack_exchange:   # Full URL
+steam:
+tumblr:
+twitter:          # "twitter username"
+vimeo:
+wordpress:
+youtube:          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
+
+
+# rss specify feed path
+feed:
+  path: feed.xml
+
+# Share button options
+share:
+  facebook: true
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit:
+  linkedin: true
+  wordpress:
+  email:
